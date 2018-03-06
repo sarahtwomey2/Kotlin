@@ -8,7 +8,8 @@ const val acceleration = 9.800
 //Declare a constant that is a character type named integral that has a value of “\u{222B}”
 //not working
 //const val integral: Char = '\u{222B}'
-const val integral: String = "/u{222b}"
+const val integral: Char = '\u222B';
+//const val integral: String = "/u{222b}"
 const val greeting: String = "Hello"
 
 fun main(args: Array<String>) {
